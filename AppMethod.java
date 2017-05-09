@@ -10,6 +10,7 @@ public class AppMethod {
 
 		int var_opciones;
 		boolean var_estado;
+		
 		do {
 			var_estado = true;
 			System.out.println("\n***MENU DE OPCIONES***");
@@ -46,7 +47,6 @@ public class AppMethod {
 					System.out.println(" As salido del programa ");
 				}
 			}//fin switch
-		}//fin do
-		while(var_estado);
+		} while(var_estado); // fin do while
 	}
 }
